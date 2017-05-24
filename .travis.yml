@@ -1,0 +1,13 @@
+## YAML Template.
+---
+
+language: java
+branches:
+  only:
+     master
+notifications:
+  email:
+    recipients:
+      sergio.marriaga@udea.edu.co
+jdk: oraclejdk8
+script: mvn clean install
